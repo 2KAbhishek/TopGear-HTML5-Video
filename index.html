@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Awesome Video</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <section id="first">
+      <div id="date" onload="showDate()"></div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./pages/about.html">About Us</a>
+        <a href="./pages/careers.html">Carrers</a>
+      </nav>
+      <img width="25px" src="logo.png" />
+      <h3>Amazing Online Video Library</h3>
+      <img width="25px" src="logo.png" />
+    </section>
+    <section id="second">
+      <video
+        id="player"
+        width="640"
+        poster="logo.png"
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      >
+        Your browser does not support HTML5 video.</video
+      ><br />
+      <button type="button" id="toggle-btn" onclick="togglePlay()">></button>
+
+      <form name="choose" method="post" onsubmit="validateForm()">
+        <table>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="fname" required /></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" required /></td>
+          </tr>
+          <tr>
+            <td>Age:</td>
+            <td>
+              <input type="number" name="age" min="18" max="120" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Email ID:</td>
+            <td><input type="email" name="email" required /></td>
+          </tr>
+          <tr>
+            <td>City:</td>
+            <td>
+              <input list="cities" name="city" required />
+              <datalist id="cities">
+                <option value="Delhi"></option>
+                <option value="Mumbai"></option>
+                <option value="Kolkata"></option>
+                <option value="Bangalore"></option>
+                <option value="Chennai"></option>
+                <option value="Hyderabad"></option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td>Video Choice:</td>
+            <td><input type="text" name="choice" required /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" name="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <div id="display"></div>
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>
