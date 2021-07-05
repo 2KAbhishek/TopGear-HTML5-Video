@@ -1,4 +1,4 @@
-<div align = "center">
+<div align="center">
 
 <h1><a href="https://2kabhishek.github.io/TopGear-HTML5-Video">TopGear-HTML5-Video</a></h1>
 
@@ -23,21 +23,19 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h2>Short sweet headline with 🎇🎉</h2>
+<h2>Video of the week web page 🌐🎬</h2>
 
 </div>
-
-TopGear-HTML5-Video is a training project which demonstrates usage of the video tag along with form verifications and local storage usage.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed any modern `web browser`.
+- You have installed any `modern web browser`
 
-## Getting TopGear-HTML5-Video
+## Get TopGear-HTML5-Video
 
-To get TopGear-HTML5-Video, follow these steps:
+To clone TopGear-HTML5-Video, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/TopGear-HTML5-Video
@@ -46,18 +44,21 @@ cd TopGear-HTML5-Video
 
 ## Using TopGear-HTML5-Video
 
-Solution code is placed in Exercises dir
+Use this for your reference, all code in the root directory, once you have any `modern web browser` installed you can edit and run these locally.
 
 ```bash
-edit index.html # Edit file
-open index.html # Open preview
+edit index.html # Edit
+open index.html # Preview
 ```
 
-Hit the :star: button if you found this useful.
+Hit the ⭐ button if you found this useful.
 
 ## More Info
 
 <div align="center">
+
+<strong>Disclaimer!</strong><br>
+These solutions have been shared for learning purposes only. <br>
 
 <a href="https://github.com/2KAbhishek/TopGear-HTML5-Video">Source</a> |
 <a href="https://2kabhishek.github.io/TopGear-HTML5-Video">Website</a>
