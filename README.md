@@ -23,7 +23,7 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h2>Video of the week web page 🌐🎬</h2>
+<h3>Video of the week web page 🌐🎬</h3>
 
 </div>
 
